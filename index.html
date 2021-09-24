@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia 26 Agosto 2021</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h2>Hipervinculos</h2>
+    <a href="http://holamundo.com" rel="noopener noreferrer" target="_black">
+        holamundo.com
+    </a>
+    <hr>
+    <h2>Imagen cargada desde una url</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Svg.svg" alt="Una imagen cargada desde url" width="200">
+    <hr>
+    <h2>Imagenes cargadas desde el mismo sitio de trabajo</h2>
+    <img src="./programacion-1917283.jpg" alt="" width="33%">
+    <hr>
+    <h2>Imagenes segun el tamaño de la pantalla</h2>
+    <picture>
+        <source media="(max-width:400px)" srcset="./img/logo1.jpg">
+        <source media="(max-width:500px)" srcset="./img/logo2.jpg">
+        <img id="imgSource" src="./img/logo1.jpg" alt="">
+    </picture>
+</body>
+</html>
